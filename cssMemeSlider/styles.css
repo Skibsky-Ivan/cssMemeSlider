@@ -64,8 +64,7 @@ body {
 /* radio */
 
 .slider-radio {
-  position: absolute;
-  opacity: 0;
+  display: none;
 }
 
 /* slider */
@@ -143,10 +142,6 @@ body {
 .caption {
   flex: 0 0 100%;
   font-size: 1.4rem;
-}
-
-.slider-radio:nth-of-type(4):checked ~ .slider-footer .caption-track {
-  transform: translateX(-300%);
 }
 
 /* controls */
