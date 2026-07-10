@@ -88,6 +88,7 @@ body {
 }
 
 .caption-viewport {
+  width: 100%;
   overflow: hidden;
 }
 
@@ -100,6 +101,20 @@ body {
   flex: 0 0 100%;
   font-size: 1.4rem;
 }
+
+.slider-1-radio:checked ~ .slider-footer .caption-track {
+  transform: translateX(0);
+}
+.slider-2-radio:checked ~ .slider-footer .caption-track {
+  transform: translateX(-100%);
+}
+.slider-3-radio:checked ~ .slider-footer .caption-track {
+  transform: translateX(-200%);
+}
+.slider-4-radio:checked ~ .slider-footer .caption-track {
+  transform: translateX(-300%);
+}
+
 
 .slider-control {
   display: flex;
