@@ -3,52 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cssMenuSlider</title>
+    <title>CSS Meme Slider</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <section class="content">
       <h1 class="title">css meme slider</h1>
 
       <div class="slider">
-        <input
-          class="slider-radio slider-1-radio"
-          type="radio"
-          name="slide"
-          id="slide-1"
-          checked />
-
-        <input
-          class="slider-radio slider-2-radio"
-          type="radio"
-          name="slide"
-          id="slide-2" />
-
-        <input
-          class="slider-radio slider-3-radio"
-          type="radio"
-          name="slide"
-          id="slide-3" />
-
-        <input
-          class="slider-radio slider-4-radio"
-          type="radio"
-          name="slide"
-          id="slide-4" />
+        <input class="slider-radio" type="radio" name="slide" id="slide-1" checked />
+        <input class="slider-radio" type="radio" name="slide" id="slide-2" />
+        <input class="slider-radio" type="radio" name="slide" id="slide-3" />
+        <input class="slider-radio" type="radio" name="slide" id="slide-4" />
 
         <div class="slider-viewport">
           <div class="slider-track">
             <div class="slide">
-              <img src="./img/slider-1.webp" alt="" class="slide-img" />
+              <img
+                src="./img/slider-1.webp"
+                alt="Программист радуется после успешного исправления ошибки"
+                class="slide-img" />
             </div>
+
             <div class="slide">
-              <img src="./img/slide-2.webp" alt="" class="slide-img" />
+              <img
+                src="./img/slide-2.webp"
+                alt="Программист запускает код после долгой отладки"
+                class="slide-img" />
             </div>
+
             <div class="slide">
-              <img src="./img/slide-3.jpg" alt="" class="slide-img" />
+              <img
+                src="./img/slide-3.jpg"
+                alt="Разработчик смотрит на старый код и узнаёт свой стиль"
+                class="slide-img" />
             </div>
+
             <div class="slide">
-              <img src="./img/slide-4.png" alt="" class="slide-img" />
+              <img
+                src="./img/slide-4.png"
+                alt="Программист обнаружил ошибку из-за пропущенной точки с запятой"
+                class="slide-img" />
             </div>
           </div>
         </div>
@@ -56,15 +52,14 @@
         <div class="slider-footer">
           <div class="caption-viewport">
             <div class="caption-track">
-              <p class="caption">
-                Когда наконец исправил баг с первого раза
-              </p>
-              <p class="caption">
-                Когда запустил код после пяти часов отладки
-              </p>
+              <p class="caption">Когда наконец исправил баг с первого раза</p>
+
+              <p class="caption">Когда запустил код после пяти часов отладки</p>
+
               <p class="caption">
                 Когда открыл старый код и понял, что это написал ты
               </p>
+
               <p class="caption">
                 Когда понял, что проблема была в одной пропущенной точке с
                 запятой
@@ -74,16 +69,19 @@
 
           <div class="slider-control">
             <label class="slider-label" for="slide-1">
-              <div class="slider-mark"></div>
+              <span class="slider-mark"></span>
             </label>
+
             <label class="slider-label" for="slide-2">
-              <div class="slider-mark"></div>
+              <span class="slider-mark"></span>
             </label>
+
             <label class="slider-label" for="slide-3">
-              <div class="slider-mark"></div>
+              <span class="slider-mark"></span>
             </label>
+
             <label class="slider-label" for="slide-4">
-              <div class="slider-mark"></div>
+              <span class="slider-mark"></span>
             </label>
           </div>
         </div>
