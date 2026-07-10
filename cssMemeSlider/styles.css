@@ -138,6 +138,15 @@ body {
   transition: background-color 0.2s;
 }
 
+.slider-1-radio:checked ~ .slider-footer .slider-label[for='slide-1'] .slider-mark,
+.slider-2-radio:checked ~ .slider-footer .slider-label[for=slide-2] .slider-mark,
+.slider-3-radio:checked ~ .slider-footer .slider-label[for=slide-3] .slider-mark,
+.slider-4-radio:checked ~ .slider-footer .slider-label[for=slide-4] .slider-mark {
+  border: 2px solid oklch(91.55% 0.04221 284.042);
+  background: none;
+  pointer-events: none;
+}
+
 .slider-label:hover .slider-mark {
   background-color: oklch(65.998% 0.08214 210.122);
 }
